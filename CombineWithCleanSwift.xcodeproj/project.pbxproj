@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		41C49313288B3D760080C97B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C49312288B3D760080C97B /* AppDelegate.swift */; };
 		41C49315288B3D760080C97B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C49314288B3D760080C97B /* SceneDelegate.swift */; };
-		41C49317288B3D760080C97B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C49316288B3D760080C97B /* ViewController.swift */; };
-		41C4931A288B3D760080C97B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C49318288B3D760080C97B /* Main.storyboard */; };
 		41C4931C288B3D760080C97B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C4931B288B3D760080C97B /* Assets.xcassets */; };
 		41C4931F288B3D760080C97B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C4931D288B3D760080C97B /* LaunchScreen.storyboard */; };
+		41C49338288B3D930080C97B /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C49327288B3D930080C97B /* ApiManager.swift */; };
+		41C49339288B3D930080C97B /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C49329288B3D930080C97B /* BaseService.swift */; };
+		41C4933A288B3D930080C97B /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4932C288B3D930080C97B /* UsersViewController.swift */; };
+		41C4933B288B3D930080C97B /* UsersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4932D288B3D930080C97B /* UsersInteractor.swift */; };
+		41C4933C288B3D930080C97B /* UsersModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4932E288B3D930080C97B /* UsersModels.swift */; };
+		41C4933D288B3D930080C97B /* UsersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4932F288B3D930080C97B /* UsersWorker.swift */; };
+		41C4933E288B3D930080C97B /* UsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C49330288B3D930080C97B /* UsersRouter.swift */; };
+		41C4933F288B3D930080C97B /* UsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C49331288B3D930080C97B /* UsersPresenter.swift */; };
+		41C49340288B3D930080C97B /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C49332288B3D930080C97B /* Users.storyboard */; };
+		41C49341288B3D930080C97B /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C49334288B3D930080C97B /* UserTableViewCell.swift */; };
+		41C49342288B3D930080C97B /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C49335288B3D930080C97B /* UserTableViewCell.xib */; };
+		41C49343288B3D930080C97B /* UsersResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C49337288B3D930080C97B /* UsersResponseModel.swift */; };
+		41C49346288B3DC40080C97B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 41C49345288B3DC40080C97B /* Alamofire */; };
+		41C49349288B3DD20080C97B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 41C49348288B3DD20080C97B /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41C4930F288B3D760080C97B /* CombineWithCleanSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineWithCleanSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C49312288B3D760080C97B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C49314288B3D760080C97B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41C49316288B3D760080C97B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41C49319288B3D760080C97B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41C4931B288B3D760080C97B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C4931E288B3D760080C97B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41C49320288B3D760080C97B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C49327288B3D930080C97B /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		41C49329288B3D930080C97B /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		41C4932C288B3D930080C97B /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		41C4932D288B3D930080C97B /* UsersInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersInteractor.swift; sourceTree = "<group>"; };
+		41C4932E288B3D930080C97B /* UsersModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersModels.swift; sourceTree = "<group>"; };
+		41C4932F288B3D930080C97B /* UsersWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersWorker.swift; sourceTree = "<group>"; };
+		41C49330288B3D930080C97B /* UsersRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersRouter.swift; sourceTree = "<group>"; };
+		41C49331288B3D930080C97B /* UsersPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersPresenter.swift; sourceTree = "<group>"; };
+		41C49332288B3D930080C97B /* Users.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Users.storyboard; sourceTree = "<group>"; };
+		41C49334288B3D930080C97B /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		41C49335288B3D930080C97B /* UserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		41C49337288B3D930080C97B /* UsersResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C49349288B3DD20080C97B /* SDWebImage in Frameworks */,
+				41C49346288B3DC40080C97B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +80,73 @@
 		41C49311288B3D760080C97B /* CombineWithCleanSwift */ = {
 			isa = PBXGroup;
 			children = (
+				41C49336288B3D930080C97B /* Models */,
+				41C49326288B3D930080C97B /* Network */,
+				41C4932A288B3D930080C97B /* Scenes */,
+				41C49328288B3D930080C97B /* Service */,
 				41C49312288B3D760080C97B /* AppDelegate.swift */,
 				41C49314288B3D760080C97B /* SceneDelegate.swift */,
-				41C49316288B3D760080C97B /* ViewController.swift */,
-				41C49318288B3D760080C97B /* Main.storyboard */,
 				41C4931B288B3D760080C97B /* Assets.xcassets */,
 				41C4931D288B3D760080C97B /* LaunchScreen.storyboard */,
 				41C49320288B3D760080C97B /* Info.plist */,
 			);
 			path = CombineWithCleanSwift;
+			sourceTree = "<group>";
+		};
+		41C49326288B3D930080C97B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				41C49327288B3D930080C97B /* ApiManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		41C49328288B3D930080C97B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				41C49329288B3D930080C97B /* BaseService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		41C4932A288B3D930080C97B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				41C4932B288B3D930080C97B /* Users */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		41C4932B288B3D930080C97B /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				41C4932C288B3D930080C97B /* UsersViewController.swift */,
+				41C4932D288B3D930080C97B /* UsersInteractor.swift */,
+				41C4932E288B3D930080C97B /* UsersModels.swift */,
+				41C4932F288B3D930080C97B /* UsersWorker.swift */,
+				41C49330288B3D930080C97B /* UsersRouter.swift */,
+				41C49331288B3D930080C97B /* UsersPresenter.swift */,
+				41C49332288B3D930080C97B /* Users.storyboard */,
+				41C49333288B3D930080C97B /* Views */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		41C49333288B3D930080C97B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41C49334288B3D930080C97B /* UserTableViewCell.swift */,
+				41C49335288B3D930080C97B /* UserTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41C49336288B3D930080C97B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41C49337288B3D930080C97B /* UsersResponseModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +165,10 @@
 			dependencies = (
 			);
 			name = CombineWithCleanSwift;
+			packageProductDependencies = (
+				41C49345288B3DC40080C97B /* Alamofire */,
+				41C49348288B3DD20080C97B /* SDWebImage */,
+			);
 			productName = CombineWithCleanSwift;
 			productReference = 41C4930F288B3D760080C97B /* CombineWithCleanSwift.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +197,10 @@
 				Base,
 			);
 			mainGroup = 41C49306288B3D760080C97B;
+			packageReferences = (
+				41C49344288B3DC40080C97B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				41C49347288B3DD20080C97B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 41C49310288B3D760080C97B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +216,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				41C4931F288B3D760080C97B /* LaunchScreen.storyboard in Resources */,
+				41C49340288B3D930080C97B /* Users.storyboard in Resources */,
 				41C4931C288B3D760080C97B /* Assets.xcassets in Resources */,
-				41C4931A288B3D760080C97B /* Main.storyboard in Resources */,
+				41C49342288B3D930080C97B /* UserTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +229,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41C49317288B3D760080C97B /* ViewController.swift in Sources */,
+				41C4933B288B3D930080C97B /* UsersInteractor.swift in Sources */,
+				41C49338288B3D930080C97B /* ApiManager.swift in Sources */,
+				41C4933F288B3D930080C97B /* UsersPresenter.swift in Sources */,
+				41C4933C288B3D930080C97B /* UsersModels.swift in Sources */,
+				41C49341288B3D930080C97B /* UserTableViewCell.swift in Sources */,
+				41C4933E288B3D930080C97B /* UsersRouter.swift in Sources */,
+				41C49343288B3D930080C97B /* UsersResponseModel.swift in Sources */,
+				41C4933A288B3D930080C97B /* UsersViewController.swift in Sources */,
+				41C4933D288B3D930080C97B /* UsersWorker.swift in Sources */,
 				41C49313288B3D760080C97B /* AppDelegate.swift in Sources */,
+				41C49339288B3D930080C97B /* BaseService.swift in Sources */,
 				41C49315288B3D760080C97B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +247,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		41C49318288B3D760080C97B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41C49319288B3D760080C97B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		41C4931D288B3D760080C97B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +384,7 @@
 				INFOPLIST_FILE = CombineWithCleanSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Users;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +412,7 @@
 				INFOPLIST_FILE = CombineWithCleanSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Users;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +450,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41C49344288B3DC40080C97B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		41C49347288B3DD20080C97B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41C49345288B3DC40080C97B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41C49344288B3DC40080C97B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		41C49348288B3DD20080C97B /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41C49347288B3DD20080C97B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 41C49307288B3D760080C97B /* Project object */;
 }
